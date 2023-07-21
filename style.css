@@ -158,3 +158,69 @@
 .banner-image img {
   height: 540px;
 }
+
+.gamer-container {
+  padding: 50px 240px;
+  height: 500px;
+  display: flex;
+  gap: 50x;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.gamer-description {
+  width: 500px;
+  text-align: right;
+}
+
+.gamer-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gamer-msg-1 {
+  padding: 20px 0px;
+  padding-left: 50px;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.gamer-btn {
+  padding: 20px 40px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background: var(--linear-gradient);
+  cursor: pointer;
+}
+
+.gamer-msg-2 {
+  padding: 20px 0px;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.gamer-span {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.gamer-image img {
+  width: 100%;
+}
